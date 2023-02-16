@@ -1,0 +1,24 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+block {
+    display: grid;
+    grid-template-columns: 1fr 4fr 2fr;
+    width: 100%;
+}
+blocks {
+    width: 100vw;
+    height: 100vh;
+}
+
+.b1 {
+    background-color: red;
+}
+.b2 {
+    background-color: blue;
+}
+.b3 {
+    background-color: green;
+}
